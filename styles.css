@@ -591,3 +591,30 @@ footer{background:var(--navy-card);border-top:1px solid var(--rose-border);paddi
   .sec-strip { gap: 12px; }
   .sec-strip-item { font-size: 0.72rem; }
 }
+
+/* ── Hero stats fix — prevent overlap ── */
+.hero-stats{display:flex;flex-wrap:wrap;gap:0;align-items:flex-start}
+.hero-stat{flex:0 0 auto}
+@media(max-width:900px){
+  .hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:0;width:100%}
+  .hero-stat{padding:14px 16px !important;border-left:none !important;border-right:none !important;border-bottom:1px solid var(--rose-border)}
+  .hero-stat:nth-child(odd){border-right:1px solid var(--rose-border) !important}
+  .hero-stat:last-child,.hero-stat:nth-last-child(2){border-bottom:none}
+  .hero-stat-num{font-size:1.5rem}
+  .hero-stat-label{font-size:0.7rem}
+}
+@media(max-width:480px){
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .hero h1{font-size:2rem}
+  .hero-sub{font-size:0.95rem}
+}
+/* Fix quote/contact 2-col on mobile */
+@media(max-width:900px){
+  .quote-wrap > div[style*="grid-template-columns:1fr 1.2fr"],
+  .contact-grid,
+  div[style*="grid-template-columns:1fr 1.2fr"],
+  div[style*="grid-template-columns:1fr 1.3fr"]{
+    grid-template-columns:1fr !important;
+    gap:32px !important;
+  }
+}
