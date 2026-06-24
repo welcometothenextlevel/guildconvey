@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://guildconveyancing.com.au/sitemap.xml
