@@ -1,31 +1,567 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-AU">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0F1B2D" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet" />
-    <script>
-      ;(function (w, d, s, l, i) {
-        w[l] = w[l] || []
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : ''
-        j.async = true
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
-        f.parentNode.insertBefore(j, f)
-      })(window, document, 'script', 'dataLayer', 'GTM-XXXXXXX')
-    </script>
-    <title>Guild Conveyancing</title>
-    <script type="module" crossorigin src="./assets/index-Be3RmtEu.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Crxx0JuD.css">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-  </head>
-  <body>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0F1B2D" />
+  <title>Guild Conveyancing | Mastery in Property Transfers — VIC, SA & QLD</title>
+  <meta name="description" content="Guild Conveyancing offers fixed-fee, fully online conveyancing services across Victoria, South Australia and Queensland. Get your free quote in 30 seconds." />
+  <link rel="canonical" href="https://guildconveyancing.com.au/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Guild Conveyancing",
+    "description": "Fixed-fee conveyancing services across Victoria, South Australia and Queensland.",
+    "url": "https://guildconveyancing.com.au",
+    "areaServed": ["Victoria","South Australia","Queensland"],
+    "priceRange": "$$",
+    "telephone": "+61-XXXX-XXXX"
+  }
+  </script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Guild Conveyancing Home">
+      <img src="logo.webp" alt="Guild Conveyancing" />
+    </a>
+    <ul class="nav-links" role="list">
+      <li class="nav-dropdown">
+        <button class="nav-dropdown-toggle" aria-haspopup="true">Services ▾</button>
+        <div class="nav-dropdown-menu">
+          <a href="buying.html">Buying</a>
+          <a href="selling.html">Selling</a>
+          <a href="transfer.html">Property Transfer</a>
+          <a href="contract-review.html">Contract Review</a>
+        </div>
+      </li>
+      <li class="nav-dropdown">
+        <button class="nav-dropdown-toggle" aria-haspopup="true">Locations ▾</button>
+        <div class="nav-dropdown-menu">
+          <a href="victoria.html">Victoria</a>
+          <a href="south-australia.html">South Australia</a>
+          <a href="queensland.html">Queensland</a>
+          <a href="locations.html">All Locations</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <a href="quote.html" class="btn btn-primary nav-cta">Get Free Quote</a>
+    <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="nav-mobile" aria-hidden="true">
+  <span class="mob-section-title">Services</span>
+  <a href="buying.html">Buying</a>
+  <a href="selling.html">Selling</a>
+  <a href="transfer.html">Property Transfer</a>
+  <a href="contract-review.html">Contract Review</a>
+  <span class="mob-section-title">Locations</span>
+  <a href="victoria.html">Victoria</a>
+  <a href="south-australia.html">South Australia</a>
+  <a href="queensland.html">Queensland</a>
+  <span class="mob-section-title">Company</span>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQ</a>
+  <a href="blog.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <div class="mob-cta"><a href="quote.html" class="btn btn-primary">Get Free Quote</a></div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+        Australia's Premium Conveyancing Service
+      </div>
+      <h1>Mastery in Property Transfers<br><span>— <span id="heroState">Victoria</span></span></h1>
+      <p class="hero-sub">Fixed fee. Fully online. Settled with <strong>precision</strong>.<br>Serving VIC, SA &amp; QLD with no office visit required.</p>
+      <div class="hero-actions">
+        <a href="quote.html" class="btn btn-primary">Get My Free Quote →</a>
+        <a href="#process" class="btn btn-outline">How It Works</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">$0</div>
+          <div class="hero-stat-label">Hidden Fees — Ever</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">48hr</div>
+          <div class="hero-stat-label">Contract Review Turnaround</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">3</div>
+          <div class="hero-stat-label">States Covered</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">100%</div>
+          <div class="hero-stat-label">Online — No Office Visit</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      PEXA Certified
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+      AIC Member
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+      5-Star Google Rated
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22V12M12 12L8 16M12 12l4 4"/><circle cx="12" cy="8" r="2"/><path d="M20 21a8 8 0 10-16 0"/></svg>
+      Fixed Fee Guarantee
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-item">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+      100% Online
+    </div>
+  </div>
+</div>
+
+<!-- INSTANT QUOTE WIDGET -->
+<section class="quote-section">
+  <div class="container">
+    <div class="quote-card">
+      <span class="section-label">Instant Estimate</span>
+      <h2 class="text-white">Get Your Fixed Fee in 30 Seconds</h2>
+      <p>No commitment. No obligation. Just an honest price upfront.</p>
+
+      <div class="quote-step-label">Step 1 — I am...</div>
+      <div class="quote-pills">
+        <button class="quote-pill" data-type="buying">Buying</button>
+        <button class="quote-pill" data-type="selling">Selling</button>
+        <button class="quote-pill" data-type="transferring">Transferring</button>
+        <button class="quote-pill" data-type="contractreview">Contract Review Only</button>
+      </div>
+
+      <div class="quote-step-label">Step 2 — State</div>
+      <div class="quote-pills">
+        <button class="quote-pill" data-state="VIC">Victoria</button>
+        <button class="quote-pill" data-state="SA">South Australia</button>
+        <button class="quote-pill" data-state="QLD">Queensland</button>
+      </div>
+
+      <div class="quote-step-label">Step 3 — Property Value</div>
+      <div class="quote-slider-wrap">
+        <div class="quote-slider-value" id="propValueDisplay">$500,000</div>
+        <input type="range" id="propValue" min="100000" max="5000000" step="50000" value="500000" aria-label="Property value" />
+      </div>
+
+      <div class="quote-result">
+        <div class="quote-result-label">Estimated conveyancing fee</div>
+        <div class="quote-result-price">—</div>
+        <div class="quote-result-note">Includes GST. Government disbursements and search fees are additional.</div>
+        <div class="quote-actions">
+          <a href="quote.html" class="btn btn-primary">Get Exact Quote by Email →</a>
+          <a href="contact.html" class="btn btn-outline">Speak to Our Team</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="process-section" id="process">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">The Process</span>
+      <h2 class="text-white">From Quote to Keys — In Four Steps</h2>
+      <p>We've removed every piece of friction from the conveyancing process. No paperwork, no office visits, no surprises.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="process-num">1</div>
+        <h3>Get Your Quote</h3>
+        <p>Receive an instant fixed-fee estimate — no commitment required. Know your full costs before you sign anything.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">2</div>
+        <h3>Engage the Guild</h3>
+        <p>E-sign your service agreement from any device. We'll assign your dedicated conveyancer within one business day.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">3</div>
+        <h3>We Handle Everything</h3>
+        <p>Title searches, legal documents, agent liaison, and PEXA lodgement — all managed by our expert team.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">4</div>
+        <h3>Settle with Confidence</h3>
+        <p>Electronic settlement confirmed via PEXA. We notify you the moment it's done. Keys in hand, stress behind you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Our Services</span>
+      <h2 class="text-white">Everything You Need, Nothing You Don't</h2>
+      <p>One clear service, one fixed fee. No hidden extras, no billing surprises at settlement.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Buying</h3>
+        <p>Navigate every step of your purchase with precision — from contract review to final settlement.</p>
+        <ul class="service-features">
+          <li>Contract of sale review &amp; advice</li>
+          <li>Title and encumbrance searches</li>
+          <li>Stamp duty calculation</li>
+          <li>PEXA electronic settlement</li>
+          <li>First home buyer guidance</li>
+        </ul>
+        <a href="buying.html" class="service-link">Learn More →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 100 4h4a2 2 0 110 4H8"/><path d="M12 18V6"/></svg>
+        </div>
+        <h3>Selling</h3>
+        <p>Maximise your outcome with expert contract management and swift, hassle-free settlement.</p>
+        <ul class="service-features">
+          <li>Vendor statement / Section 32 preparation</li>
+          <li>Contract of sale drafting</li>
+          <li>Deposit release management</li>
+          <li>Agent liaison &amp; coordination</li>
+          <li>Same-day settlement confirmation</li>
+        </ul>
+        <a href="selling.html" class="service-link">Learn More →</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
+        </div>
+        <h3>Property Transfer</h3>
+        <p>Seamless title transfers between family members, related parties, or business entities.</p>
+        <ul class="service-features">
+          <li>Family transfers &amp; gifting</li>
+          <li>Divorce &amp; separation transfers</li>
+          <li>Adding or removing a name</li>
+          <li>Trust &amp; company transfers</li>
+          <li>Stamp duty exemption advice</li>
+        </ul>
+        <a href="transfer.html" class="service-link">Learn More →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS TEASER -->
+<section class="locations-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Our Reach</span>
+      <h2 class="text-white">Serving Victoria, South Australia &amp; Queensland</h2>
+      <p>We operate 100% online — your suburb is never a barrier. No matter where you are in these three states, we've got you covered.</p>
+    </div>
+    <div class="locations-states">
+      <div class="state-card">
+        <div class="state-icon">🏙️</div>
+        <h3>Victoria</h3>
+        <ul class="state-suburbs">
+          <li>Melbourne CBD</li>
+          <li>Geelong</li>
+          <li>Ballarat</li>
+          <li>Bendigo</li>
+          <li>Frankston</li>
+        </ul>
+        <a href="victoria.html" class="state-link">View All VIC Locations →</a>
+      </div>
+      <div class="state-card">
+        <div class="state-icon">🌅</div>
+        <h3>South Australia</h3>
+        <ul class="state-suburbs">
+          <li>Adelaide CBD</li>
+          <li>Norwood</li>
+          <li>Glenelg</li>
+          <li>Salisbury</li>
+          <li>Mount Barker</li>
+        </ul>
+        <a href="south-australia.html" class="state-link">View All SA Locations →</a>
+      </div>
+      <div class="state-card">
+        <div class="state-icon">☀️</div>
+        <h3>Queensland</h3>
+        <ul class="state-suburbs">
+          <li>Brisbane CBD</li>
+          <li>Gold Coast</li>
+          <li>Sunshine Coast</li>
+          <li>Ipswich</li>
+          <li>Toowoomba</li>
+        </ul>
+        <a href="queensland.html" class="state-link">View All QLD Locations →</a>
+      </div>
+    </div>
+    <div class="locations-note">
+      <strong class="text-white">Don't see your suburb?</strong> We service all of VIC, SA &amp; QLD — 100% online. <a href="contact.html" class="text-rose fw-600">Contact us to confirm your area →</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY GUILD -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Why Guild</span>
+      <h2 class="text-white">The Standard Others Are Measured Against</h2>
+      <p>We built Guild Conveyancing around one principle: the client always comes first. Here's what that looks like in practice.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22V12M12 12L8 16M12 12l4 4"/><circle cx="12" cy="8" r="2"/><path d="M20 21a8 8 0 10-16 0"/></svg></div>
+        <h3>Fixed Fee — Always</h3>
+        <p>The price we quote is the price you pay. No hidden charges, no surprise invoices at settlement.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>PEXA Certified</h3>
+        <p>Fully electronic settlement via PEXA — faster, safer, and more reliable than paper-based processes.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <h3>After-Hours Access</h3>
+        <p>Property decisions don't keep business hours. We're available evenings and weekends by appointment.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div>
+        <h3>No Office Visit</h3>
+        <p>Handle everything from your phone, tablet, or laptop. E-sign documents, video conference, digital ID — all online.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="13 2 13 9 20 9"/><path d="M20 14.5v3.5a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h7"/></svg></div>
+        <h3>48-Hour Turnaround</h3>
+        <p>Contract reviews returned within 48 hours on average. When the market moves fast, so do we.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+        <h3>State Specialists</h3>
+        <p>Deep expertise in VIC, SA and QLD property law — not a national call centre, a focused local team.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Client Stories</span>
+      <h2 class="text-white">Trusted by Property Owners Across Three States</h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Guild made buying our first home genuinely stress-free. Everything was explained clearly, the fee was exactly what they quoted, and settlement went through without a hitch."</p>
+        <div class="review-author">
+          <div class="review-avatar">SL</div>
+          <div>
+            <div class="review-name">Sarah L.</div>
+            <div class="review-meta">First Home Buyer · Victoria · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"I've used three conveyancers over the years. Guild is on another level — responsive, thorough, and their fixed fee actually included everything. No nasty surprises."</p>
+        <div class="review-author">
+          <div class="review-avatar">MP</div>
+          <div>
+            <div class="review-name">Marcus P.</div>
+            <div class="review-meta">Property Investor · Queensland · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"We sold our family home of 22 years. It was an emotional process and Guild handled every detail with professionalism and genuine care. Settlement was seamless."</p>
+        <div class="review-author">
+          <div class="review-avatar">JK</div>
+          <div>
+            <div class="review-name">Janet K.</div>
+            <div class="review-meta">Vendor · South Australia · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"The PEXA settlement was done and dusted by 10am. I didn't have to take a single day off work. This is how conveyancing should work — completely online and completely painless."</p>
+        <div class="review-author">
+          <div class="review-avatar">TR</div>
+          <div>
+            <div class="review-name">Tom R.</div>
+            <div class="review-meta">Buyer · Victoria · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"I transferred my investment property into a family trust. Guild explained the stamp duty implications clearly and saved me from a costly mistake another solicitor had missed."</p>
+        <div class="review-author">
+          <div class="review-avatar">PW</div>
+          <div>
+            <div class="review-name">Priya W.</div>
+            <div class="review-meta">Investor · Queensland · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Quick contract review before auction, turned around in under 24 hours. Picked up two issues that could have cost us thousands. Worth every cent and more."</p>
+        <div class="review-author">
+          <div class="review-avatar">DM</div>
+          <div>
+            <div class="review-name">Daniel M.</div>
+            <div class="review-meta">Buyer · South Australia · Verified Google Review</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ TEASER -->
+<section class="faq-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Common Questions</span>
+      <h2 class="text-white">Everything You've Been Wondering</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">What does fixed fee actually mean?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>It means the price we quote you upfront is the price you pay — full stop. Unlike solicitors who bill by the hour, Guild charges a single flat fee for the entire conveyancing service. The only additional costs are government disbursements (title searches, council certificates) which we pass to you at cost, with no mark-up.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Do I need to visit your office?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Never. Guild Conveyancing is built to operate 100% online. You sign documents electronically, verify your identity digitally, and communicate via email, phone, or video call. Settlement is handled through PEXA, Australia's electronic property exchange platform.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How long does conveyancing take?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Timeframes depend on the settlement date agreed in the contract of sale. In Victoria, standard settlement is 30–60 days. In South Australia, 30 days is common. In Queensland, 30–45 days. We begin work immediately upon engagement to ensure nothing delays your settlement.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What is PEXA and why does it matter?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>PEXA (Property Exchange Australia) is the digital platform used for over 99% of Australian property settlements. It replaces the old paper-based process where parties physically attended a settlement room. With PEXA, settlement is electronic, faster, and far less prone to error. Guild is fully PEXA certified.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can you help with first home buyer grants and stamp duty concessions?<span class="faq-icon">+</span></button>
+        <div class="faq-answer"><p>Yes. Our team is well-versed in first home buyer grants and stamp duty concessions in VIC, SA, and QLD. We'll identify every concession you're entitled to and handle the application as part of your conveyancing service — at no additional cost.</p></div>
+      </div>
+    </div>
+    <div class="faq-cta">
+      <a href="faq.html" class="btn btn-outline">See All FAQs →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="cta-band">
+  <div class="container">
+    <span class="section-label" style="display:block;text-align:center;margin-bottom:12px;">Ready to Begin?</span>
+    <h2>Start Your Property Journey Today</h2>
+    <p>Get your fixed-fee quote in under 30 seconds. No obligation, no pressure — just clarity.</p>
+    <a href="quote.html" class="btn btn-primary" style="font-size:1.05rem;padding:16px 36px;">Get My Free Quote →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logo.webp" alt="Guild Conveyancing" />
+        <p>Mastery in Property Transfers. Fixed-fee conveyancing for buyers, sellers and investors across Victoria, South Australia and Queensland.</p>
+        <p style="font-size:0.78rem;margin-top:8px;">Liability limited by a scheme approved under professional standards legislation.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="buying.html">Buying</a></li>
+          <li><a href="selling.html">Selling</a></li>
+          <li><a href="transfer.html">Property Transfer</a></li>
+          <li><a href="contract-review.html">Contract Review</a></li>
+          <li><a href="quote.html">Get a Quote</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="victoria.html">Victoria</a></li>
+          <li><a href="south-australia.html">South Australia</a></li>
+          <li><a href="queensland.html">Queensland</a></li>
+          <li><a href="locations.html">All Locations</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 10.81a19.79 19.79 0 01-3.07-8.63A2 2 0 011.9 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          1300 XXX XXX
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          hello@guildconveyancing.com.au
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Mon–Fri 9am–6pm AEST
+        </div>
+        <ul style="margin-top:12px;">
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Guild Conveyancing. All rights reserved. ABN XX XXX XXX XXX</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Disclaimer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
 </html>
